@@ -35,6 +35,6 @@ jobs:
       displayName: Web App Deploy
       inputs:
         appType: webApp
-        azureSubscription: 'AzCertification'
+        azureSubscription: 'AzureTraining'
         appName: 'PipelineDotNetDemo'
         package: $(Build.ArtifactStagingDirectory)/*.zip
